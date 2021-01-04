@@ -68,7 +68,12 @@ int main() {
 	for (i = 0; i < asmt_number; i++) {
 		total += asmt_grade[i];
 	}
-	avg = total / asmt_number;
+	
+	float temp = 0.0;
+	for (i = 0; i < asmt_number; i++) {
+		temp += asmt_grade[i] / asmt_worth[i];
+	}
+	avg = temp / asmt_number;
 	
 	for (i = 0; i < asmt_number; i++) {
 		col_worth += asmt_worth[i];
