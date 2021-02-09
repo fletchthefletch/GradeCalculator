@@ -2,7 +2,3 @@
 #	number;name name;A1:A1_worth;A2_mark:A2_worth;A3_mark:A3_worth;#exam_worth
 #	or
 #	string;string;float:float;float:float;float:float;#int
-
-158.100;Computer Applications & the Information Age;7.75:8.0;6.75:8.00;7.5:8.0;#50
-159.102;Computer Science Fundamentals;4.0:4.0;4.0:4.0;4.0:4.0;4.0:4.0;4.0:4.0;18.5:20.0;#60
-
